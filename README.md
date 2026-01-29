@@ -4,8 +4,7 @@
 
 📍 **Dublin, Ireland** | 📄 **Visa:** Stamp 1G (Full Work Rights 2025-2027)
 
-I am a results-driven **M.Sc. Data Analytics** graduate from **Dublin City University** with a background in Computer Science. I specialize in building reliable backend services, optimizing database performance, and developing end-to-end machine learning pipelines.
-, where I focus on database optimization and high-efficiency query engineering.
+I am a results-driven **M.Sc. Data Analytics** graduate from **Dublin City University** with a background in Computer Science. I specialize in building reliable backend services, optimizing databas[...], where I focus on database optimization and high-efficiency query engineering.
 
 ---
 
@@ -48,6 +47,14 @@ I am a results-driven **M.Sc. Data Analytics** graduate from **Dublin City Unive
 ### **🤖 Bhagavad Gita GPT (RAG Q&A System)**
 * Developed a Retrieval-Augmented Generation (RAG) system using cosine similarity on vector embeddings
 * Built an interactive frontend using **Streamlit** for real-time querying
+
+### **🚕 NYC Taxi Demand Forecasting Pipeline**
+* Built an end-to-end NYC taxi demand forecasting pipeline (ETL → feature engineering → XGBoost model) with temporal validation and MAE optimization
+* Engineered 17 time-series and spatial features (lags, rolling stats, cyclical time encodings) to capture hourly zone demand patterns
+* Trained and evaluated an XGBoost regressor achieving ~0.84 test MAE; logged metrics and feature importance for interpretability
+* Productized the model with a FastAPI service exposing /health, /info, /predict endpoints and Pydantic validation
+* Containerized the API using Docker for reproducible deployment; verified with health checks and smoke tests
+* Set up CI on GitHub Actions for linting, API startup checks, and automated endpoint tests
 
 ---
 
